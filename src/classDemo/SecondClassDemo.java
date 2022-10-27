@@ -1,0 +1,15 @@
+package classDemo;
+
+public class SecondClassDemo {
+
+	public static void main(String[] args) {
+		
+		Calculator obj1=new Calculator();
+		obj1.sum();
+		obj1.sub();
+		System.out.println("Name:"+obj1.name);
+		System.out.println("Hobby:"+obj1.hobby);
+
+	}
+
+}
