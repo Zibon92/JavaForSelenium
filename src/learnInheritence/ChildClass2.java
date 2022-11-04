@@ -1,15 +1,14 @@
 package learnInheritence;
 
-public class ChildClass extends BaseClass{
+public class ChildClass2 extends BaseClass{
 
 	public static void main(String[] args) 
 	{
 		
-		ChildClass obj1=new ChildClass();
+		BaseClass obj1=new BaseClass();//you can not access child class method if you create base class object in child class
 		obj1.add();
 		obj1.sub();
-		obj1.mul();
-		obj1.div();
+		
 		
 	}
 	public void mul()
