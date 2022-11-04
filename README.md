@@ -1,0 +1,2 @@
+# JavaForSelenium
+# Inheritence file added
