@@ -13,7 +13,7 @@ public class ChildClass3 extends BaseClass{
 	}
 	public void mul()
 	{
-		System.out.println("I am base class and I am multiplication");
+		System.out.println("I am base class and I am multiplication of 50");
 	}
 	public void div()
 	{
